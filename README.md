@@ -1,6 +1,6 @@
 # Pooly
 
-App manages a pools of workers
+Manages a pools of workers
 
 ## Installation
 
