@@ -1,6 +1,6 @@
 # Pooly
 
-**TODO: Add description**
+Manages a pools of workers
 
 ## Installation
 
