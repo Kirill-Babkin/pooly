@@ -14,6 +14,7 @@ defmodule Pooly.WorkerSupervisor do
   #############
 
   def init({m,f,a}) do
+    IO.puts("Starting worker Supervisor")
     worker_opts = [restart: :permanent, function: f]
 
     children = [worker(m, a, worker_opts)]
